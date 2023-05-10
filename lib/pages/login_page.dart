@@ -13,7 +13,7 @@ class LoginPage extends StatelessWidget {
           fit: BoxFit.cover,
         ),
         const SizedBox(
-          height: 20.0,
+          height: 20.0, 
         ),
         const Text("welcome",
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22)),
