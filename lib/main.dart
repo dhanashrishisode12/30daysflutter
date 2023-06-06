@@ -16,13 +16,13 @@ class MyApp extends StatelessWidget {
       // home: const HomePage(),
       themeMode: ThemeMode.light,
       theme: ThemeData(
-          primarySwatch: Colors.red,
-          fontFamily: GoogleFonts.lato().fontFamily, 
-          ),
+        primarySwatch: Colors.red,
+        fontFamily: GoogleFonts.lato().fontFamily,
+      ),
       darkTheme: ThemeData(brightness: Brightness.dark),
       initialRoute: "/LoginPage",
       routes: {
-        "/": (context) => const LoginPage(),
+        "/": (context) => const HomePage(),
         "/HomePage": (context) => const HomePage(),
         "/LoginPage": (context) => const LoginPage(),
       },
